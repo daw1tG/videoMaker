@@ -2,7 +2,7 @@ import requests
 
 class PexelsAPI():
     def __init__(self) -> None:
-        self.api_key = 'Ob9g5imJ9ssEzFkuxYjQ4j2KhyXzHedJVXxkOp2clpGi5WNkrhcWQXD7'
+        self.api_key = ""
         self.baseURL = 'https://api.pexels.com/v1/'
         self.headers = {'Authorization': self.api_key}
 
